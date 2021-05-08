@@ -3,7 +3,7 @@
     
     <head> 
         <meta charset="utf-8"/>
-        <title>Layout 1</title>
+        <title>Layout 2</title>
         <meta name="viewport" content="width=device-width, initial-scale"/>
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
         
@@ -16,38 +16,37 @@
             
             .green {
                 background-color: #C7EA46;
-                height: 350px;
+                height: 700px;
             }
             
-            .orange{
-                background-color: #FFA500;
-                height: 250px;
-            }
-            
-            .grey{
+             .grey{
                 background-color: #808080;
-                height: 200px;
+                height: 160px;
+            }
+            
+            .pink {
+                background-color: #FF6FFF;
+                height: 160px;
+            }
+            
+            .red {
+                background-color: #DC143C;
+                height: 700px;
             }
             /* xs devices */
-            body { background-color: red }
             /* sm devices */
            @media (min-width: 576px) {
-           body { background-color: orange }
            }
            /* md devices */
            @media (min-width: 768px) {
-           body { background-color: yellow }
            }
            /* lg devices */
            @media (min-width: 992px) {
-           body { background-color: green }
            }
            /* xl devices */
            @media (min-width: 1200px) {
           body { background-color: blue }
-        page 12 of 14
         }
-      }
 
         </style>
         
@@ -56,33 +55,18 @@
     <body>
         <div class="container">
         <div class="row">
-        <div class="col-lg-6 blue"></div>
-        <div class="col-lg-6 blue"></div>
+        <div class="col-lg-12 blue"></div>
       </div>
     </div>
         
         <div class="container">
         <div class="row">
-        <div class="col-3 col-sm green"></div>
+        <div class="col-lg-3 green"></div>
+        <div class="col-lg-2 grey"></div>
+        <div class="col-lg-4 pink"></div>
+        <div class="col-lg-3 red"></div>
       </div>
     </div>
         
-        <div class="container">
-        <div class="row">
-        <div class="col-sm-4 orange"></div>
-        <div class="col-sm-4 orange"></div>
-        <div class="col-sm-4 orange"></div>
-      </div>
-    </div>
-        
-        <div class="container">
-        <div class="row">
-        <div class="col-sm-3 grey"></div>
-        <div class="col-sm-3 grey"></div>
-        <div class="col-sm-3 grey"></div>
-        <div class="col-sm-3 grey"></div>
-      </div>
-    </div>           
-    
     </body>
 </html>
